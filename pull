@@ -1,0 +1,11 @@
+<html>
+<body>
+<script> 
+let linkList = []
+const links = document.querySelectorAll('a')
+links.forEach(link => {        
+  linkList.push(link.href);
+});
+</script>
+</body>  
+</html>
